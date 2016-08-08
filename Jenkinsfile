@@ -1,3 +1,3 @@
 node {
-  sh 'echo testing'
+  sh 'cat /etc/fstab'
 }

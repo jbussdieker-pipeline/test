@@ -1,6 +1,4 @@
-stage 'clone'
-echo "Cloning..."
-stage 'build'
-echo "Building..."
-stage 'deploy'
-echo "Deploying..."
+terraform {
+  environments = ["dev", "qa"]
+  test = false
+}
